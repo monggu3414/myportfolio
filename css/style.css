@@ -82,3 +82,13 @@ li.menu-item {
 .content-item.active {
   display: block;
 }
+
+.portfolio {
+  position: absolute;
+  top: 0;
+  left: 55%;
+  transform: translateX(-50%);
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+}
