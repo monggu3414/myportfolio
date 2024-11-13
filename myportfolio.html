@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mong Page</title>
     <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
   </head>
   <body>
     <div class="wrap">
@@ -12,9 +13,9 @@
       <aside class="sidebar">
         <ul>
           <li class="menu-item" data-content="content1">HOME</li>
-          <li class="menu-item" data-content="content2">MENU-2</li>
-          <li class="menu-item" data-content="content3">MENU-3</li>
-          <li class="menu-item" data-content="content4">MENU-4</li>
+          <li class="menu-item" data-content="content2">Introduce</li>
+          <li class="menu-item" data-content="content3">Video</li>
+          <li class="menu-item" data-content="content4">Contact</li>
         </ul>
       </aside>
 
@@ -24,46 +25,20 @@
           <span>HOME</span>
         </article>
         <article id="content2" class="content-item">
-          <span>CONTENT-2</span>
+          <span>Introduce</span>
         </article>
         <article id="content3" class="content-item">
-          <span>CONTENT-3</span>
+          <span>Video</span>
         </article>
         <article id="content4" class="content-item">
-          <span>CONTENT-4</span>
+          <span>Contact</span>
         </article>
       </section>
+
+      <!-- 메인 영역 -->
+      <a href="portfolio">
+        <span>portfolio</span>
+      </a>
     </div>
-
-    <!-- js -->
-    <script>
-      const menuItems = document.querySelectorAll(".menu-item");
-      const contentItems = document.querySelectorAll(".content-item");
-
-      // 초기 설정: 첫 번째 메뉴 항목과 내용 활성화
-      menuItems[0].classList.add("active");
-      contentItems[0].classList.add("active");
-
-      menuItems.forEach((item) => {
-        item.addEventListener("click", () => {
-          // 모든 메뉴 항목의 active 클래스 제거
-          menuItems.forEach((menuItem) => {
-            menuItem.classList.remove("active");
-          });
-
-          // 클릭된 메뉴 항목에 active 클래스 추가
-          item.classList.add("active");
-
-          // 모든 콘텐츠 내용 숨기기
-          contentItems.forEach((contentItem) => {
-            contentItem.classList.remove("active");
-          });
-
-          // 클릭된 메뉴에 해당하는 콘텐츠 내용 표시
-          const contentId = item.dataset.content;
-          document.getElementById(contentId).classList.add("active");
-        });
-      });
-    </script>
   </body>
 </html>
