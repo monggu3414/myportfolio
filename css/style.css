@@ -44,6 +44,12 @@ aside.sidebar {
   color: #fff;
   padding-top: 40px;
 }
+.menu-item {
+  padding: 10px 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
 li.menu-item {
   position: relative;
   padding: 15px 20px;
