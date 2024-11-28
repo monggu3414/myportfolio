@@ -5,7 +5,7 @@
     </div>
     <div style="text-align: left;"> 
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 영상 콘텐츠 제작자 최몽근 입니다! </h2>  
-    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> 영상을 좋아하고 만드는 제작자 최몽근 입니다! </div> 
+    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> 영상을 촬영과 편집을 좋아하며 만들고 있는 최몽근 입니다!</li></li>영상학과, 영상 동아리 학회장을 하며 촬영을 다녔고 포토샵 디자인과 편집 기술을 공부하여 현재 제작하고 있습니다. </div> 
     </div>
     <div style="text-align: left;">
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ Tech Stacks </h2> <br> 
